@@ -11,8 +11,8 @@
 
 ;;; Code:
 
-(setf burn--emoji "🔥")
-(setf burn--interval 0.001)
+(defvar burn--emoji "🔥")
+(defvar burn--interval 0.001)
 
 (defun burn--is-empty ()
   (= 0 (length
